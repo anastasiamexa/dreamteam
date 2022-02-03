@@ -15,7 +15,7 @@ Devise.setup do |config|
   # Devise will use the `secret_key_base` as its `secret_key`
   # by default. You can change it below and use your own secret key.
 
-  # config.secret_key = 'bba5d19fcc155865764b5e01ed33a733cbe3657048ae1f2fff444aa3f648f136e4d88e6852744b3f8a9a41abf0dc317504d88c92b2756439842e03bfb618ce18'
+  # config.secret_key = '122dbe0c19ec51d1aedecfe5eb81da957a5ee1ac35ba88cd89265f88683925d200375920019c7eb385ef9ffd0c015dbb882237a07fe8fa8da9ff2ee4c1899229'
 
 
   # ==> Controller configuration
@@ -129,7 +129,7 @@ Devise.setup do |config|
 
   # Set up a pepper to generate the hashed password.
 
-  # config.pepper = 'a5da13ad5c280c9c6556b9e42529a2e9f9e6a35b1431b7fa46c7bfeb9166c81052826ad5ac7965002abc3d270a217a61400e7e952e529abc1685ab0d96e65e09'
+  # config.pepper = 'ffd1c603ad5b22b0a015aac1b90d49c2f68ee5796a3207733ee1ffdb5f390e0c5c9f027a5ed65ab78826f42069c53bb665a2d8609b2ba0d46a6068d9100b6b50'
 
 
   # Send a notification to the original email when the user's email is changed.
