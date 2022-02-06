@@ -4,6 +4,8 @@
 // that code so it'll be compiled.
 //= require jquery
 //= require bootstrap-sprockets
+//= require_self
+//= require_tree
 
 import Rails from "@rails/ujs"
 import Turbolinks from "turbolinks"
@@ -13,3 +15,9 @@ import "channels"
 Rails.start()
 Turbolinks.start()
 ActiveStorage.start()
+
+require("turbolinks").start()
+require("@rails/activestorage").start()
+require("channels")
+require('jquery')
+console.log('Hello from application.js')
