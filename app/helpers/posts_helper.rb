@@ -7,7 +7,7 @@ module PostsHelper
     end
   end
 
-   def all_categories_button_partial_path
+  def all_categories_button_partial_path
     if params[:category].blank?
       'posts/branch/categories/all_selected'
     else
