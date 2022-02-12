@@ -2,6 +2,7 @@
 <html>
   <head>
     <title>Dreamteam</title>
+    <%= include_gon(:init => true) %>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -16,5 +17,6 @@
   <body>
     <%= render 'layouts/navigation' %>
     <%= yield %>
+    <%= render 'layouts/application/private_conversations_windows' %>
   </body>
 </html>

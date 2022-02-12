@@ -32,6 +32,7 @@ gem 'turbolinks', '~> 5'
 gem 'devise'
 gem 'faker'
 gem 'will_paginate', '~> 3.3.1'
+gem 'gon'
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 
